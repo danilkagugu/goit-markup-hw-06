@@ -687,6 +687,19 @@ img {
 .portfolio-photo {
   height: 280px;
 }
+
+@media screen and (min-width: 768px) {
+  .portfolio-photo {
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .portfolio-photo {
+    height: 300px;
+  }
+}
+
 .portfolio-card:hover .portfolio-discription {
   transform: translateY(0%);
 }
