@@ -33,7 +33,7 @@ ul {
 
 img {
   display: block;
-  width: 100%;
+  max-width: 100%;
 }
 
 .container {
@@ -622,7 +622,7 @@ img {
 
 @media screen and (min-width: 1158px) {
   .section-portfolio {
-    padding: 120px 140px;
+    padding: 120px 0;
   }
 }
 
@@ -684,12 +684,13 @@ img {
   overflow: hidden;
 }
 
-.portfolio-photo {
+/* .portfolio-photo {
   height: 280px;
 }
 
 @media screen and (min-width: 768px) {
   .portfolio-photo {
+    width: 360px;
     height: 300px;
   }
 }
@@ -698,7 +699,7 @@ img {
   .portfolio-photo {
     height: 300px;
   }
-}
+} */
 
 .portfolio-card:hover .portfolio-discription {
   transform: translateY(0%);
