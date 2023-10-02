@@ -754,12 +754,6 @@ img {
   padding: 96px 0;
 }
 
-@media screen and (min-width: 768px) {
-  .footer {
-    padding: 96px 92px;
-  }
-}
-
 @media screen and (min-width: 1158px) {
   .footer {
     padding: 100px 0;
@@ -770,6 +764,12 @@ img {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-content {
+    padding: 0 108px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
