@@ -766,7 +766,7 @@ img {
   align-items: baseline;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1157.98px) {
   .footer-content {
     padding: 0 108px;
   }
